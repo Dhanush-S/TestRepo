@@ -3,3 +3,4 @@ Added another line to check the direction of push
 Master branch: add new line
 Master branch: add another new line
 NewTestBranch: added a new line to the NewTestBranch local branch. Need to create Pull Request for this branch.
+NewTestBranch: add another test line
