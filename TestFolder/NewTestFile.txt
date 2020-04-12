@@ -2,3 +2,4 @@ New file added
 Added another line to check the direction of push
 Master branch: add new line
 Master branch: add another new line
+LocalNewTestBranch: added a line in the local branch of remote NewTestBranch 
