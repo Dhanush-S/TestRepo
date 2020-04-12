@@ -29,12 +29,18 @@ namespace Calculator
             button7.Click += NumberClick;
             button8.Click += NumberClick;
             button9.Click += NumberClick;
-            button10.Click += NumberClick;            
+            button10.Click += NumberClick;      
+            
         }
 
         private void NumberClick(object sender, EventArgs e)
         {
             textBox.Text += ((Button)sender).Text;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            textBox.Text = "";
         }
     }
 }
