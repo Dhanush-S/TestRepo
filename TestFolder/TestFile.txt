@@ -2,3 +2,5 @@ This is to test GitRepo
 Adding line to the main branch
 Test branch added in AddNewFile branch
 Master branch: add new line
+New branch: added new branch 
+
