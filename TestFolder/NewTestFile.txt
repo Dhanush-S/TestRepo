@@ -5,4 +5,4 @@ Master branch: add another new line
 Master branch: add 3rd line
 NewTestBranch: added a new line to the NewTestBranch local branch. Need to create Pull Request for this branch.
 NewTestBranch: add another test line
-
+LocalNewTestBranch: added a line in the local branch of remote NewTestBranch 
