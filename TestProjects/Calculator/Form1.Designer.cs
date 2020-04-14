@@ -48,6 +48,7 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.displayLabel = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -203,11 +204,11 @@
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(256, 475);
+            this.button16.Location = new System.Drawing.Point(468, 157);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(100, 100);
             this.button16.TabIndex = 15;
-            this.button16.Text = "AC";
+            this.button16.Text = "C";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
@@ -235,10 +236,10 @@
             // 
             // button18
             // 
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Location = new System.Drawing.Point(362, 157);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(206, 100);
+            this.button18.Size = new System.Drawing.Size(100, 100);
             this.button18.TabIndex = 18;
             this.button18.Text = "Backspace";
             this.button18.UseVisualStyleBackColor = true;
@@ -254,11 +255,22 @@
             this.displayLabel.Text = "label1";
             this.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // button19
+            // 
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.Location = new System.Drawing.Point(256, 475);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(100, 100);
+            this.button19.TabIndex = 20;
+            this.button19.Text = "s <-> d";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(616, 606);
+            this.Controls.Add(this.button19);
             this.Controls.Add(this.displayLabel);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -307,6 +319,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label displayLabel;
+        private System.Windows.Forms.Button button19;
     }
 }
 
